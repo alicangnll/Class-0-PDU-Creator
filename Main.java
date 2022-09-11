@@ -12,7 +12,7 @@ package com.alicangonullu.denemeprojesi;
 
 public class DenemeProjesi {
     public static void main(String[] args) {
-        System.out.println(PDUConverter.encode("+905369983658", "+905369983658", "Selamin Aleykum.").getPduCommand());
+        System.out.println(PDUConverter.encode("to", "from", "Merhaba, bu bir GSM denemesidir.").getPduCommand());
     }
  }
 
