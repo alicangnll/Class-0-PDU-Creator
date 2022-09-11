@@ -5,11 +5,11 @@ PDU Creator for Class 0 SMS
 <br><br>
 <b>Send Code to Android</b>
 <br><br>
-<code>Example : 
+<pre>Example : 
 ls -la /dev | grep -a smd 
 cat /dev/smd11
 echo -e "AT+CMGW=33\n0791093596896385040d9109359689638500002290115083240c10D3323BDC4EBB41417639BFAEB75D\r" > /dev/smd11
-</code>
+</pre>
 <br><br>
 <table style="width: 99.82%; border-collapse: collapse;" border="1" width="99%" cellspacing="0" cellpadding="0">
 <tbody>
