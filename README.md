@@ -8,8 +8,9 @@ PDU Creator for Class 0 SMS
 <pre>Example : 
 ls -la /dev | grep -a smd 
 cat /dev/smd11
-echo -e "AT+CMGW=33
+echo -e "AT+CMGS=33
 0791093596896385040d9109359689638500002290115083240c10D3323BDC4EBB41417639BFAEB75D\r" > /dev/smd11
+cat /dev/smd11
 </pre>
 <br><br>
 <table style="width: 99.82%; border-collapse: collapse;" border="1" width="99%" cellspacing="0" cellpadding="0">
